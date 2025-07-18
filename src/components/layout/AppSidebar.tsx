@@ -1,8 +1,6 @@
-import { Calendar, ChevronsLeftRightEllipsis, ChevronUp, Home, Inbox, LogOut, Search, Settings, User, User2 } from "lucide-react"
-import { Sidebar, SidebarContent, SidebarFooter, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar"
+import { Calendar, ChevronsLeftRightEllipsis, Home, Inbox, Search, Settings } from "lucide-react"
+import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar"
 import Link from "next/link"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem } from "../ui/dropdown-menu"
-import { DropdownMenuTrigger } from "@radix-ui/react-dropdown-menu"
 
 // Menu items.
 const items = [
