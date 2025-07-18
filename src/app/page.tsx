@@ -1,7 +1,11 @@
-const Homepage = ()=>{
+import { Skills } from "@/components/sections/Skills"
+import { Hero } from "@/components/sections/Hero"
+
+const Homepage = () => {
   return (
-    <div className='h-screen flex items-center justify-center'>
-      
+    <div className="h-screen overflow-y-auto">
+      <Hero />
+      <Skills />
     </div>
   )
 }

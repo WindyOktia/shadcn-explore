@@ -29,23 +29,23 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <body
-          className={`${geistSans.variable} ${geistMono.variable} antialiased flex`}
-          >
-          <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
-            <SidebarProvider>
-              <AppSidebar/>
-              <main className="w-full">
-                  <Navbar/>
-                  <div className="px-4">
-                    {children}
-                  </div>
-              </main>
-            </SidebarProvider>
+        className={`${geistSans.variable} ${geistMono.variable} antialiased flex overflow-hidden h-full`}
+      >
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <SidebarProvider>
+            <AppSidebar />
+            <main className="w-full">
+              <Navbar />
+              <div className="px-4">
+                {children}
+              </div>
+            </main>
+          </SidebarProvider>
         </ThemeProvider>
       </body>
     </html>
