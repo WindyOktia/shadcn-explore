@@ -31,19 +31,21 @@ const careerData = [
 export default function CareerTimeline() {
     return (
         <section className="py-10 pb-30">
-            <h2 className="text-3xl font-bold mb-8">Career Journey</h2>
-            <div className="relative border-l-4 border-gray-300 pl-6 space-y-10">
+            <h2 className="text-3xl font-bold mb-8 text-black dark:text-white">Career Journey</h2>
+            <div className="relative border-l-4 border-gray-300 dark:border-gray-600 pl-6 space-y-10">
                 {careerData.map((item, idx) => (
                     <div key={idx} className="relative">
                         {/* Dot */}
-                        <div className="absolute -left-[1.15rem] top-1 w-5 h-5 rounded-full bg-blue-600 border-4 border-white shadow-md" />
+                        <div className="absolute -left-[1.15rem] top-1 w-5 h-5 rounded-full bg-blue-600 border-4 border-white dark:border-gray-900 shadow-md" />
                         {/* Content */}
-                        <div className="mb-2 text-sm text-gray-500">{item.year}</div>
-                        <div className="text-xl font-semibold text-gray-900 flex items-center gap-2">
+                        <div className="mb-2 text-sm text-gray-500 dark:text-gray-400">{item.year}</div>
+                        <div className="text-xl font-semibold text-gray-900 dark:text-white flex items-center gap-2">
                             <Briefcase size={18} className="text-blue-600" />
                             {item.title}
                         </div>
-                        <p className="text-gray-700 mt-1 text-sm leading-relaxed">{item.description}</p>
+                        <p className="text-gray-700 dark:text-gray-300 mt-1 text-sm leading-relaxed">
+                            {item.description}
+                        </p>
                     </div>
                 ))}
             </div>
