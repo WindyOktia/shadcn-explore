@@ -96,14 +96,16 @@ const AppSidebar = () => {
                                         <SidebarMenuButton asChild>
                                             <a
                                                 href={itemsSet.url}
-                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors ${isActive
-                                                    ? 'bg-blue-100 font-bold text-black'
-                                                    : 'text-black hover:bg-blue-50 hover:text-black'
-                                                    }`}
+                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors
+    ${isActive
+                                                        ? 'bg-blue-100 text-gray-900 dark:bg-blue-900 dark:text-white font-bold'
+                                                        : 'text-gray-900 hover:bg-blue-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-blue-800 dark:hover:text-white'}
+  `}
                                             >
                                                 <Icon className="mr-2 h-4 w-4" />
                                                 <span>{itemsSet.title}</span>
                                             </a>
+
                                         </SidebarMenuButton>
                                     </SidebarMenuItem>
                                 );
@@ -124,14 +126,16 @@ const AppSidebar = () => {
                                         <SidebarMenuButton asChild>
                                             <a
                                                 href={itemsSet.url}
-                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors ${isActive
-                                                    ? 'bg-blue-100 font-bold text-black'
-                                                    : 'text-black hover:bg-blue-50 hover:text-black'
-                                                    }`}
+                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors
+    ${isActive
+                                                        ? 'bg-blue-100 text-gray-900 dark:bg-blue-900 dark:text-white font-bold'
+                                                        : 'text-gray-900 hover:bg-blue-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-blue-800 dark:hover:text-white'}
+  `}
                                             >
                                                 <Icon className="mr-2 h-4 w-4" />
                                                 <span>{itemsSet.title}</span>
                                             </a>
+
                                         </SidebarMenuButton>
                                     </SidebarMenuItem>
                                 );
@@ -152,14 +156,16 @@ const AppSidebar = () => {
                                         <SidebarMenuButton asChild>
                                             <a
                                                 href={itemsSet.url}
-                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors ${isActive
-                                                    ? 'bg-blue-100 font-bold text-black'
-                                                    : 'text-black hover:bg-blue-50 hover:text-black'
-                                                    }`}
+                                                className={`flex items-center px-2 py-1.5 rounded-md transition-colors
+    ${isActive
+                                                        ? 'bg-blue-100 text-gray-900 dark:bg-blue-900 dark:text-white font-bold'
+                                                        : 'text-gray-900 hover:bg-blue-50 hover:text-gray-900 dark:text-gray-200 dark:hover:bg-blue-800 dark:hover:text-white'}
+  `}
                                             >
                                                 <Icon className="mr-2 h-4 w-4" />
                                                 <span>{itemsSet.title}</span>
                                             </a>
+
                                         </SidebarMenuButton>
                                     </SidebarMenuItem>
                                 );
