@@ -1,11 +1,12 @@
 "use client"
 
-import { LogOut, Moon, Settings, Sun, User } from "lucide-react"
+import { FlameKindling, Github, Linkedin, Moon, Sun } from "lucide-react"
 import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuSeparator, DropdownMenuTrigger } from "../ui/dropdown-menu"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from "../ui/dropdown-menu"
 import { Button } from "../ui/button"
 import { useTheme } from "next-themes"
 import { SidebarTrigger } from "../ui/sidebar"
+import Link from "next/link"
 
 const Navbar = () => {
     const { setTheme } = useTheme();
@@ -17,7 +18,18 @@ const Navbar = () => {
 
             {/* RIGHT */}
             <div className="flex items-center gap-4">
-                {/* <Link href="">Dashboard</Link> */}
+                <Button asChild className="bg-black hover:bg-gray-800 text-white">
+                    <Link href="https://github.com/WindyOktia" target="_blank" rel="noopener noreferrer">
+                        <Github className="mr-2 h-4 w-4" />
+                        GitHub
+                    </Link>
+                </Button>
+                <Button asChild className="bg-[#0077B5] hover:bg-[#006699] text-white">
+                    <Link href="https://id.linkedin.com/in/win-oktia" target="_blank" rel="noopener noreferrer">
+                        <Linkedin className="mr-2 h-4 w-4" />
+                        LinkedIn
+                    </Link>
+                </Button>
                 <DropdownMenu>
                     <DropdownMenuTrigger asChild>
                         <Button variant="outline" size="icon">
@@ -46,11 +58,11 @@ const Navbar = () => {
                         </Avatar>
                     </DropdownMenuTrigger>
                     <DropdownMenuContent sideOffset={10} className="mr-3">
-                        <DropdownMenuLabel>My Account</DropdownMenuLabel>
-                        <DropdownMenuSeparator />
-                        <DropdownMenuItem>
+                        <DropdownMenuLabel className="flex"><FlameKindling className="mr-2" />Coming Soon</DropdownMenuLabel>
+                        {/* <DropdownMenuSeparator /> */}
+                        {/* <DropdownMenuItem>
                             <User className="h-[1.2rem] w-[1.2rem] mr-2" />
-                            Profile
+                            Coming Soon
                         </DropdownMenuItem>
                         <DropdownMenuItem>
                             <Settings className="h-[1.2rem] w-[1.2rem] mr-2" />
@@ -59,7 +71,7 @@ const Navbar = () => {
                         <DropdownMenuItem variant="destructive">
                             <LogOut className="h-[1.2rem] w-[1.2rem] mr-2" />
                             Logout
-                        </DropdownMenuItem>
+                        </DropdownMenuItem> */}
                     </DropdownMenuContent>
                 </DropdownMenu>
             </div>
