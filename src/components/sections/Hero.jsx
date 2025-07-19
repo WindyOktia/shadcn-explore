@@ -26,7 +26,7 @@ export const Hero = () => {
             }}
         >
             <section className="py-20 px-6 md:px-12">
-                <div className="text-justify">
+                <div className="">
                     <div className="flex items-center space-x-2 text-muted-foreground mb-3">
                         <RocketIcon className="w-5 h-5" />
                         <span className="text-base font-medium">Hi everyone,</span>
