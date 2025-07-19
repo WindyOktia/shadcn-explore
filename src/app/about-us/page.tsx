@@ -37,7 +37,7 @@ export default function AboutPage() {
                                 className="w-64 h-64 rounded-lg object-cover shadow-md mx-auto sm:mx-0"
                             />
 
-                            <p className="text-base text-gray-700 dark:text-gray-300">
+                            <p className="text-base text-gray-700 dark:text-gray-300 text-justify">
                                 Hi, I&rsquo;m <b>Windy Puji Oktiagraha</b>, a passionate Full-Stack Web Developer with over 4 years of experience in building dynamic, scalable, and high-performance web applications.
                                 <br /><br />
                                 Throughout my career, I&rsquo;ve worked across various industries&mdash;e-commerce, education, news media, and even banking internal systems&mdash;delivering robust solutions tailored to business needs.
