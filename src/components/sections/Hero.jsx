@@ -49,7 +49,7 @@ export const Hero = () => {
                         requirements — giving you the perfect balance of innovation, control, and quality.
                     </p>
                     <div class="mt-6">
-                        <a href="/about-us" class="italic text-sm text-gray-700 hover:underline">
+                        <a href="/about-us" className="italic text-sm text-gray-700 hover:underline">
                             Learn more about us →
                         </a>
                     </div>
