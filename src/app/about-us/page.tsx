@@ -2,6 +2,7 @@
 
 import CareerTimeline from "@/components/sections/CareerTimeline";
 import { motion } from "framer-motion";
+import { Earth } from "lucide-react";
 import { useEffect, useState } from "react";
 import { useInView } from "react-intersection-observer";
 
@@ -27,7 +28,24 @@ export default function AboutPage() {
                     <div className="p-6 pb-24">
                         <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6">
 
-                            <h2 className="text-3xl font-bold mb-4 text-black dark:text-white ">About Me</h2>
+                            <h2 className="text-3xl font-bold mb-4 text-black dark:text-white pt-12">
+                                <div className="flex font-bold text-lg items-center">
+                                    <Earth className="mr-2" /> Web Studio Indonesia
+                                </div>
+                            </h2>
+                        </div>
+
+                        <div className="flex flex-col md:flex-row gap-6 items-start pb-12">
+
+                            <p className="text-base text-gray-700 dark:text-gray-300 text-justify">
+                                <b>Web Studio Indonesia</b> is a creative and development hub I founded with a clear vision: to build digital products that are simple by design and powerful through AI, but always remain under human control. We combine cutting-edge artificial intelligence with thoughtful UX and strong development principles to help individuals and businesses scale efficiently—without losing the human touch.
+
+                                Whether it's launching a brand, building custom tools, or automating workflows, Web Studio Indonesia is where innovation meets clarity.
+                            </p>
+                        </div>
+                        <hr className="border-gray-300 my-8 pb-6" />
+                        <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6">
+                            <h2 className="text-3xl font-bold mb-4 text-black dark:text-white ">Founders</h2>
                         </div>
 
                         <div className="flex flex-col md:flex-row gap-6 items-start">
