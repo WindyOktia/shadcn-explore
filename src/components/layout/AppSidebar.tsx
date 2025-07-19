@@ -124,7 +124,7 @@ const AppSidebar = () => {
             </SidebarHeader>
             <SidebarContent>
                 <SidebarGroup>
-                    <SidebarGroupLabel></SidebarGroupLabel>
+                    <SidebarGroupLabel>Main</SidebarGroupLabel>
                     <SidebarGroupContent>
                         <SidebarMenu>
                             {items.map((itemsSet) => {
