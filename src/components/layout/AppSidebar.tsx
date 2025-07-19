@@ -18,7 +18,7 @@ const items = [
     },
     {
         title: "Services",
-        url: "#",
+        url: "/services",
         icon: HandCoins,
     },
     {

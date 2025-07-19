@@ -48,7 +48,7 @@ export const Hero = () => {
                         Our AI-driven development process accelerates delivery without compromising your unique
                         requirements — giving you the perfect balance of innovation, control, and quality.
                     </p>
-                    <div class="mt-6">
+                    <div className="mt-6">
                         <a href="/about-us" className="italic text-sm text-gray-700 hover:underline">
                             Learn more about us →
                         </a>
