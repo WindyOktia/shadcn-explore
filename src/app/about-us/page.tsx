@@ -39,9 +39,7 @@ export default function AboutPage() {
                         <div className="flex flex-col md:flex-row gap-6 items-start pb-12">
 
                             <p className="text-base text-gray-700 dark:text-gray-300 text-justify">
-                                <b>Web Studio Indonesia</b> is a creative and development hub I founded with a clear vision: to build digital products that are simple by design and powerful through AI, but always remain under human control. We combine cutting-edge artificial intelligence with thoughtful UX and strong development principles to help individuals and businesses scale efficiently—without losing the human touch.
-
-                                Whether it&apos;s launching a brand, building custom tools, or automating workflows, Web Studio Indonesia is where innovation meets clarity.
+                                <b>Web Studio Indonesia</b> is a digital innovation hub dedicated to building products that are simple by design and powerful through AI—while keeping humans in control. The studio blends cutting-edge artificial intelligence with intuitive user experiences and solid development principles to help individuals and businesses grow efficiently, without losing the human element. From brand launches to custom tools and workflow automation, <b>Web Studio Indonesia</b> delivers solutions where clarity meets innovation.
                             </p>
 
                         </div>
