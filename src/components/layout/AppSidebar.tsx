@@ -12,7 +12,7 @@ const items = [
         icon: Home,
     },
     {
-        title: "About Us",
+        title: "About",
         url: "/about-us",
         icon: Info,
     },
