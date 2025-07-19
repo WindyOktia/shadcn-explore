@@ -73,7 +73,7 @@ const AppSidebar = () => {
                 <SidebarMenu>
                     <SidebarMenuItem>
                         <SidebarMenuButton asChild>
-                            <Link href="#">
+                            <Link href="/">
                                 <div className="flex font-bold text-lg items-center">
                                     <Earth className="mr-2" /> Web Studio IDN
                                 </div>

@@ -5,6 +5,7 @@ import AppSidebar from "@/components/layout/AppSidebar";
 import Navbar from "@/components/layout/Navbar";
 import { ThemeProvider } from "@/components/providers/ThemeProvider";
 import { SidebarProvider } from "@/components/ui/sidebar";
+import TawkToChat from "@/components/layout/TawkToChat";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default function RootLayout({
               <Navbar />
               <div className="px-4">
                 {children}
+                <TawkToChat />
               </div>
             </main>
           </SidebarProvider>
