@@ -1,8 +1,7 @@
 "use client"
 
-import { FlameKindling, Github, Linkedin, Moon, Sun } from "lucide-react"
-import { Avatar, AvatarFallback, AvatarImage } from "../ui/avatar"
-import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuLabel, DropdownMenuTrigger } from "../ui/dropdown-menu"
+import { Github, Linkedin, Moon, Sun } from "lucide-react"
+import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "../ui/dropdown-menu"
 import { Button } from "../ui/button"
 import { useTheme } from "next-themes"
 import { SidebarTrigger } from "../ui/sidebar"
@@ -50,30 +49,7 @@ const Navbar = () => {
                         </DropdownMenuItem>
                     </DropdownMenuContent>
                 </DropdownMenu>
-                <DropdownMenu>
-                    <DropdownMenuTrigger>
-                        <Avatar>
-                            <AvatarImage src="https://github.com/shadcn.png" />
-                            <AvatarFallback>CN</AvatarFallback>
-                        </Avatar>
-                    </DropdownMenuTrigger>
-                    <DropdownMenuContent sideOffset={10} className="mr-3">
-                        <DropdownMenuLabel className="flex"><FlameKindling className="mr-2" />Coming Soon</DropdownMenuLabel>
-                        {/* <DropdownMenuSeparator /> */}
-                        {/* <DropdownMenuItem>
-                            <User className="h-[1.2rem] w-[1.2rem] mr-2" />
-                            Coming Soon
-                        </DropdownMenuItem>
-                        <DropdownMenuItem>
-                            <Settings className="h-[1.2rem] w-[1.2rem] mr-2" />
-                            Settings
-                        </DropdownMenuItem>
-                        <DropdownMenuItem variant="destructive">
-                            <LogOut className="h-[1.2rem] w-[1.2rem] mr-2" />
-                            Logout
-                        </DropdownMenuItem> */}
-                    </DropdownMenuContent>
-                </DropdownMenu>
+
             </div>
         </nav>
     )
