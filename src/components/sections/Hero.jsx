@@ -25,7 +25,7 @@ export const Hero = () => {
                 visible: { opacity: 1, y: 0, transition: { duration: 0.6 } }
             }}
         >
-            <section className="py-20 px-6 md:px-12">
+            <section className="py-20 px-6 md:px-12 bg-[#f0f8ff] dark:bg-background rounded-2xl">
                 <div className="">
                     <div className="flex items-center space-x-2 text-muted-foreground mb-3">
                         <RocketIcon className="w-5 h-5" />

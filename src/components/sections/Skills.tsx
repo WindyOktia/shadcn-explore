@@ -46,10 +46,10 @@ export function Skills() {
             initial={{ opacity: 0, y: 50 }}
             animate={inView ? { opacity: 1, y: 0 } : {}}
             transition={{ duration: 0.6, delay: 0.2 }}
-            className="p-4"
+            className=""
         >
-            <section className="py-16 px-6 md:px-12">
-                <h2 className="text-2xl font-bold mb-8">Our Tech Stack</h2>
+            <section className="px-6 md:px-12 mt-10">
+                <h2 className="text-xl font-bold mb-7">Our Tech Stack</h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
                     {skills.map((skill, index) => (
                         <div

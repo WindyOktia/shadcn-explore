@@ -58,12 +58,15 @@ export default function Services() {
 
     return (
         <div className="w-full mx-auto px-4 py-8 space-y-6">
-            <h1 className="text-3xl font-bold mb-8 mt-5">Our Services</h1>
-            <p className=" text-lg text-dark-600 mb-10 w-full mx-auto">
-                We provide end-to-end digital solutions tailored to meet the unique needs of startups, growing businesses, and visionary creators.
-                From building modern websites and apps to integrating intelligent AI tools, we help you scale efficiently and leave a lasting digital impression.
-                Our goal is to deliver impactful, user-focused experiences that drive engagement, streamline operations, and elevate your brand in today’s competitive landscape.
-            </p>
+            <div className="py-10 px-6 md:px-12 bg-[#f0f8ff] dark:bg-background rounded-2xl">
+                <h1 className="text-3xl font-bold mb-8 mt-5">Our Services</h1>
+                <p className=" text-lg text-dark-600 mb-10 w-full mx-auto">
+                    We provide end-to-end digital solutions tailored to meet the unique needs of startups, growing businesses, and visionary creators.
+                    From building modern websites and apps to integrating intelligent AI tools, we help you scale efficiently and leave a lasting digital impression.
+                    Our goal is to deliver impactful, user-focused experiences that drive engagement, streamline operations, and elevate your brand in today’s competitive landscape.
+                </p>
+            </div>
+
 
             {services.map((service, index) => (
                 <div

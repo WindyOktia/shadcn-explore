@@ -30,7 +30,7 @@ const careerData = [
 
 export default function CareerTimeline() {
     return (
-        <section className="py-10 pb-30">
+        <section className="py-10 pb-15">
             <h2 className="text-3xl font-bold mb-8 text-black dark:text-white">Career Journey</h2>
             <div className="relative border-l-4 border-gray-300 dark:border-gray-600 pl-6 space-y-10">
                 {careerData.map((item, idx) => (

@@ -27,22 +27,23 @@ export default function AboutPage() {
             <main className="h-screen overflow-y-auto">
                 <div className="min-h-screen flex flex-col pb-24">
                     <div className="p-6 pb-24">
-                        <div className="flex flex-col sm:flex-row gap-6">
+                        <div className="py-10 px-6 md:px-12 bg-[#f0f8ff] dark:bg-background rounded-2xl">
+                            <div className="flex flex-col sm:flex-row gap-6">
+                                <h1 className="font-bold mb-4 text-black dark:text-white pt-12">
+                                    <div className="text-3xl flex font-bold items-center">
+                                        <Earth className="mr-2" /> Web Studio Indonesia
+                                    </div>
+                                </h1>
+                            </div>
+                            <div className="flex flex-col md:flex-row gap-6 items-start pb-12">
 
-                            <h1 className="font-bold mb-4 text-black dark:text-white pt-12">
-                                <div className="text-3xl flex font-bold items-center">
-                                    <Earth className="mr-2" /> Web Studio Indonesia
-                                </div>
-                            </h1>
+                                <p className="text-base text-gray-700 dark:text-gray-300 text-justify">
+                                    <b>Web Studio Indonesia</b> is a digital innovation hub dedicated to building products that are simple by design and powerful through AI—while keeping humans in control. The studio blends cutting-edge artificial intelligence with intuitive user experiences and solid development principles to help individuals and businesses grow efficiently, without losing the human element. From brand launches to custom tools and workflow automation, <b>Web Studio Indonesia</b> delivers solutions where clarity meets innovation.
+                                </p>
+
+                            </div>
                         </div>
 
-                        <div className="flex flex-col md:flex-row gap-6 items-start pb-12">
-
-                            <p className="text-base text-gray-700 dark:text-gray-300 text-justify">
-                                <b>Web Studio Indonesia</b> is a digital innovation hub dedicated to building products that are simple by design and powerful through AI—while keeping humans in control. The studio blends cutting-edge artificial intelligence with intuitive user experiences and solid development principles to help individuals and businesses grow efficiently, without losing the human element. From brand launches to custom tools and workflow automation, <b>Web Studio Indonesia</b> delivers solutions where clarity meets innovation.
-                            </p>
-
-                        </div>
                         <hr className="border-gray-300 my-8 pb-6" />
                         <div className="flex flex-col items-center sm:items-start sm:flex-row gap-6">
                             <h2 className="text-2xl font-bold mb-4 text-black dark:text-white ">Founders</h2>
@@ -70,7 +71,7 @@ export default function AboutPage() {
 
                         <CareerTimeline />
 
-                        <div dangerouslySetInnerHTML={{ __html: html }} className="mt-3 dark:text-gray-300" />
+                        <div dangerouslySetInnerHTML={{ __html: html }} className=" dark:text-gray-300" />
                     </div>
                 </div>
             </main>
