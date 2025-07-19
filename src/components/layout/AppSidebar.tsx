@@ -36,17 +36,17 @@ const items = [
 const itemsSettings = [
     {
         title: "Icons",
-        url: "#",
+        url: "/style/icons",
         icon: Settings,
     },
     {
         title: "Forms",
-        url: "#",
+        url: "/style/form",
         icon: Settings,
     },
     {
         title: "Components",
-        url: "#",
+        url: "/style/components",
         icon: Settings,
     }
 ]
