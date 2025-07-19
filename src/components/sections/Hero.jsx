@@ -37,8 +37,8 @@ export const Hero = () => {
                     <p className="text-lg text-muted-foreground mb-6">
                         We believe in building with purpose and designing with clarity
                     </p>
-                    <h2 class="text-xl font-bold">
-                        <span class="bg-blue-600 text-white px-3 py-1 rounded text-sm font-semibold">
+                    <h2 className="text-xl font-bold">
+                        <span className="bg-blue-600 text-white px-3 py-1 rounded text-sm font-semibold">
                             Powered by AI, Controlled by You
                         </span>
                     </h2>
