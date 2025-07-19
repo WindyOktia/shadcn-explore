@@ -124,8 +124,8 @@ const AppSidebar = () => {
             </SidebarHeader>
             <SidebarContent>
                 <SidebarGroup>
-                    {/* <SidebarGroupLabel>Dashboard</SidebarGroupLabel> */}
-                    <SidebarGroupContent className="mt-5">
+                    <SidebarGroupLabel></SidebarGroupLabel>
+                    <SidebarGroupContent>
                         <SidebarMenu>
                             {items.map((itemsSet) => {
                                 const Icon = itemsSet.icon;
