@@ -1,5 +1,5 @@
 'use client'
-import { Building2, Contact, Earth, HandCoins, Home, Info, Settings } from "lucide-react"
+import { Building2, Contact, Earth, Flame, HandCoins, Home, Info, Settings, SquareChevronRight } from "lucide-react"
 import { Sidebar, SidebarContent, SidebarGroup, SidebarGroupContent, SidebarGroupLabel, SidebarHeader, SidebarMenu, SidebarMenuButton, SidebarMenuItem } from "../ui/sidebar"
 import Link from "next/link"
 import { usePathname } from 'next/navigation'
@@ -23,12 +23,12 @@ const items = [
     },
     {
         title: "Clients",
-        url: "#",
+        url: "/clients",
         icon: Building2,
     },
     {
         title: "Contact Us",
-        url: "#",
+        url: "/contact-us",
         icon: Contact,
     },
 ]
@@ -55,12 +55,52 @@ const appSample = [
     {
         title: "Add Watermark to Image",
         url: "#",
-        icon: Settings,
+        icon: SquareChevronRight,
     },
     {
-        title: "Tiktok Downloader",
+        title: "Image Compressor",
         url: "#",
-        icon: Settings,
+        icon: SquareChevronRight,
+    },
+    {
+        title: "Color Pallete Extractor",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "QR Code Generator",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "Markdown Preiewer",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "Resume / Portfolio Builder",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "AI Quote / Joke Generator",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "Unit Converter",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "CSS Gradient Generaotr",
+        url: "#",
+        icon: SquareChevronRight,
+    },
+    {
+        title: "Local Notepad",
+        url: "#",
+        icon: SquareChevronRight,
     }
 ]
 
@@ -144,7 +184,10 @@ const AppSidebar = () => {
                     </SidebarGroupContent>
                 </SidebarGroup>
                 <SidebarGroup>
-                    <SidebarGroupLabel>Our Sample Apps</SidebarGroupLabel>
+                    <SidebarGroupLabel className="flex items-center gap-2">
+                        Our Sample Apps <Flame className="text-red-500" />
+                    </SidebarGroupLabel>
+
                     <SidebarGroupContent>
                         <SidebarMenu>
                             {appSample.map((itemsSet) => {
